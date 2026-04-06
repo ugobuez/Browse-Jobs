@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import type { Job, JobsResponse } from "../types";
+import type {  JobsResponse } from "../types";
 
 type Params = { page: number; limit: number; category?: string; type?: string };
 
