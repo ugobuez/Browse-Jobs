@@ -73,6 +73,7 @@ cd backend
 npm install
 npm run start:dev
 
+http://localhost:3000/jobs?page=1&limit=5
 http://localhost:3000
 
 3️⃣ Frontend Setup
@@ -80,6 +81,8 @@ cd frontend
 npm install
 npm run dev
 
+
+http://localhost:5173/jobs?page=1
 http://localhost:5173
 
 🔗 API Endpoint
