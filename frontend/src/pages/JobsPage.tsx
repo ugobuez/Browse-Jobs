@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import FiltersSidebar from "../components/FiltersSidebar";
 import JobsList from "../components/JobsList";
 import Pagination from "../components/Pagination";
-import type {  JobsResponse } from "../types";
+import type {  JobsResponse } from "../types/Job";
 import "../App.css"; 
 
 const categoryOptions = [
